@@ -7,7 +7,7 @@ global.numeroBot = "556692207782" //nuemro do bot
 global.prefix = "." //prefixo do bot
 // nao apague ""
 
-//‼️Se quiser compra o bot todo (DESCRIPTOGRAFADO) Chama no meu privado. 553172595934‼️
+//‼️Se quiser compra o bot todo (DESCRIPTOGRAFADO) Chama no meu privado. 556699064658
 
 tapão = "https://telegra.ph/file/841664f31eb7539c35a2d.mp4"
 //Gif da Brincadeira de Tapa

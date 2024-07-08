@@ -2173,15 +2173,13 @@ case 'aplaca':{
     break
     
 case 'criador': case 'criado': //deixa meus créditos mn.
-reply(`╭━─━───༺[🙇🏻‍♀️]༻────━─━╮
-┃[☆]╭
-┃[☆]  ⎙  INFORMAÇÕES DO CRIADOR
-┃[☆]╰
-╰━─━───༺[🙇🏻‍♀️]༻────━─━╯
+reply(`
+
+ ⎙  INFORMAÇÕES DO CRIADOR
+
 ┏━━━━━━━━ ✓
-┃[☆] -➤ Criador: Sandro
-┃[☆] -➤ Canal: SANDRO-BOT
-┃[☆] -➤ [ wa.me/5531972595934]
+┃[☆] -➤ Criador: NZ°_Dev
+┃[☆] -➤ [ wa.me/556699064658]
 ┗━━━━━━━━ ✓
 ┏━━━━━━━━ ✓
 ┃[☆] -➤ Prefixo : ${prefix}
@@ -7571,7 +7569,7 @@ if (args.length < 1) return reply(`Modo certo de se usar ${prefix}pix @ | valor`
 [🚹]> ORIGEM: *${sender.split("@")[0]}*
 [🗽]> DESTINARIO: *${tujuan}*
 [💵]> VALOR DA TRANSFERÊNCIA: *${jumblah}*
-[🗒]> BANCO: *SANDRO BANK*
+[🗒]> BANCO: *NZ° BANK*
 [⚠]> TARIFA: *0,00*
 `;
               

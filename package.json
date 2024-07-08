@@ -1,6 +1,6 @@
 {
-  "name": "Bkz-Base",
-  "version": "3.0.0",
+  "name": "NZ°_Dev",
+  "version": "2.0.0",
   "description": "Base-Bot (Whatsapp)",
   "main": "comandos.js",
   "dependencies": {
@@ -43,5 +43,5 @@
     "start": "sh shadow.sh",
     "test": "node conexão.js"
   },
-  "author": "Bkz Modz Ϟ"
+  "author": "NZ°_Dev"
 }
