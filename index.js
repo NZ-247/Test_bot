@@ -2442,7 +2442,7 @@ reply(hasil)
 break
 
 case 'cassino':
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 if (!isGroup) return reply('Você só pode jogar em grupos')
  const soto = [
 '🍊 : 🍒 : 🍐',
