@@ -573,9 +573,9 @@ megu = min.megumax
 // footer: `Usuario:${pushname}`, 
 // contextInfo:{"externalAdReply": {"title": `${botName}`,"body": `Nome: ${pushname} `, "previewType": "PHOTO","thumbnailUrl": `${megu}`,"thumbnail":  Buffer,"sourceUrl": "https://wa.me/556699064658?text=Slv%20NZ°_Dev"}}}, { quoted: info})}
           
-// const esperar = sleep = async (tempo) => {
-//     return new Promise(funcao => setTimeout(funcao, tempo));
-// }
+const esperar = sleep = async (tempo) => {
+    return new Promise(funcao => setTimeout(funcao, tempo));
+}
 
 
 const reply = (texto) => {
