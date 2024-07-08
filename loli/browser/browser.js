@@ -16,7 +16,7 @@ exports.getRandom = (ext) => {
     return `${Math.floor(Math.random() * 10000)}${ext}`
 }
 
-const banner = cfonts.render((`SANDRO MD`), {
+const banner = cfonts.render((`NZ°_Dev`), {
 font: 'chrome',
 color: 'white',
 align: 'bottom',

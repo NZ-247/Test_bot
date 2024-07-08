@@ -571,7 +571,7 @@ fileName: `${botName}`,
 fileLength: 9999999999999999999999999999,
 caption: texto,
 footer: `Usuario:${pushname}`, 
-contextInfo:{"externalAdReply": {"title": `${botName}`,"body": `Nome: ${pushname} `, "previewType": "PHOTO","thumbnailUrl": `${megu}`,"thumbnail":  Buffer,"sourceUrl": "https://wa.me/556699064658?text=Slv%20sandro"}}}, { quoted: info})}
+contextInfo:{"externalAdReply": {"title": `${botName}`,"body": `Nome: ${pushname} `, "previewType": "PHOTO","thumbnailUrl": `${megu}`,"thumbnail":  Buffer,"sourceUrl": "https://wa.me/556699064658?text=Slv%20NZ°_Dev"}}}, { quoted: info})}
           
 const esperar = sleep = async (tempo) => {
     return new Promise(funcao => setTimeout(funcao, tempo));
@@ -2112,17 +2112,8 @@ case 'creditos': //Deixa os meus créditos mn pufafavorrr🥺
 await loli.sendMessage(from, { react: { text: `❤️`, key: info.key }})
 await delay(5000)
             menu8 = `
-┏━━━━━━━━━━━━━━━━
-┃ZAP: Wa.me/556699064658
-┣━━━━━━━━━━━━━━━━
-┃insta
-┣━━━━━━━━━━━━━━━━
-┣━━━━━━━━━━━━━━━━
-┃canal Yt: https://youtube.com/@sandro_mg1?si=jT0xhaif4brqCWHs
-┣━━━━━━━━━━━━━━━━
-┗━━━〔‼️〕━━━━
-
-Créditos por criar a base 😁❤️ @sandro
+ZAP: Wa.me/556699064658
+insta: _nerd_zuero
 
             `            
            await loli.sendMessage(from, {image: fs.readFileSync('./loli/image/menu.jpg'), caption: menu8, contextInfo: {
@@ -2130,8 +2121,8 @@ Créditos por criar a base 😁❤️ @sandro
             title:"‼️INFO DO CRIADOR ‼️",
             body: "",
             reviewType: "PHOTO", 
-            thumbnailUrl: `https://telegra.ph/file/350558660dc20aa7299d6.jpg`,
-            sourceUrl: `https://instagram.com/mg_sandro_`, 
+            //thumbnailUrl: `https://telegra.ph/file/350558660dc20aa7299d6.jpg`,
+            sourceUrl: `https://instagram.com/alanlima_dj`, 
             mediaType: 2
             }}})
              
