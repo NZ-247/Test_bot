@@ -560,22 +560,45 @@ loli.sendMessage(from, { text: texto }, {quoted: info})
 const min = JSON.parse(fs.readFileSync('./sandroft/edite/fotos.json'))
 megu = min.megumax
 
-const reply = (texto) => {
-mimi = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
- loli.sendMessage(from, {
-document: fs.readFileSync('./arquivos/lib/arquivo.xlsx'),
-mimetype: mimi,
-jpegThumbnail: null,
-mentions: null,
-fileName: `${botName}`,
-fileLength: 9999999999999999999999999999,
-caption: texto,
-footer: `Usuario:${pushname}`, 
-contextInfo:{"externalAdReply": {"title": `${botName}`,"body": `Nome: ${pushname} `, "previewType": "PHOTO","thumbnailUrl": `${megu}`,"thumbnail":  Buffer,"sourceUrl": "https://wa.me/556699064658?text=Slv%20NZ°_Dev"}}}, { quoted: info})}
+// const reply = (texto) => {
+// mimi = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+//  loli.sendMessage(from, {
+// document: fs.readFileSync('./arquivos/lib/arquivo.xlsx'),
+// mimetype: mimi,
+// jpegThumbnail: null,
+// mentions: null,
+// fileName: `${botName}`,
+// fileLength: 9999999999999999999999999999,
+// caption: texto,
+// footer: `Usuario:${pushname}`, 
+// contextInfo:{"externalAdReply": {"title": `${botName}`,"body": `Nome: ${pushname} `, "previewType": "PHOTO","thumbnailUrl": `${megu}`,"thumbnail":  Buffer,"sourceUrl": "https://wa.me/556699064658?text=Slv%20NZ°_Dev"}}}, { quoted: info})}
           
-const esperar = sleep = async (tempo) => {
-    return new Promise(funcao => setTimeout(funcao, tempo));
-}
+// const esperar = sleep = async (tempo) => {
+//     return new Promise(funcao => setTimeout(funcao, tempo));
+// }
+
+
+const reply = (texto) => {
+  // Verifica se a mensagem é do tipo texto
+  if (m.type === 'text') {
+    // Envia apenas o texto
+    loli.sendMessage(from, { text: texto }, { quoted: info });
+  } else {
+    // Envia a mensagem com o documento e informações
+    loli.sendMessage(from, {
+      document: fs.readFileSync('./arquivos/lib/arquivo.xlsx'),
+      mimetype: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+      jpegThumbnail: null, // Remove o thumbnail
+      mentions: null,
+      fileName: `${botName}`,
+      fileLength: 9999999999999999999999999999,
+      caption: texto,
+      footer: `Usuario:${pushname}`, 
+      contextInfo: {"externalAdReply": {"title": `${botName}`,"body": `Nome: ${pushname} `, "previewType": "PHOTO","thumbnailUrl": `${megu}`,"thumbnail":  Buffer,"sourceUrl": "https://wa.me/556699064658?text=Slv%20NZ°_Dev"}}
+    }, { quoted: info });
+  }
+};
+
 
 const checkATMuser = (sender) => {
 
@@ -2442,7 +2465,7 @@ reply(hasil)
 break
 
 case 'cassino':
-//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 if (!isGroup) return reply('Você só pode jogar em grupos')
  const soto = [
 '🍊 : 🍒 : 🍐',
