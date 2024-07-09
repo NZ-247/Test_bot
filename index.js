@@ -872,7 +872,7 @@ color('⪼ HORÁRIO:','blue'),color(hora,'cyan'),'\n',
 color('⪼ DAТA:','blue'),color(data,'cyan'),'\n')
 
 if (!isCmd && !isGroup) console.log(
-color(`𝐌𝐄𝐍𝐒𝐀𝐆𝐄𝐌 𝐍𝐎 𝐏𝐑𝐈𝐕𝐀𝐃𝐎`,'red'),'\n',
+color(`𝐌𝐄𝐍𝐒𝐀𝐆𝐄𝐌 𝐍𝐎 𝐏𝐑𝐈𝐕𝐀𝐃𝐎`,'yellow'),'\n',
 color('⪼ NOME DO BOT:','green'),color(botName, 'cyan'),'\n',
 color('⪼ USUÁRIO:','green'),color(pushname,'cyan'),'\n',
 color('⪼ MENSAGEM:','green'),color(budy,'cyan'),'\n',
@@ -880,7 +880,7 @@ color('⪼ HORÁRIO:','green'),color(hora,'cyan'),'\n',
 color('⪼ DATA:','green'),color(data,'cyan'),'\n')
 
 if (isCmd && isGroup) console.log(
-color(`𝐂𝐎𝐌𝐀𝐍𝐃𝐎 𝐄𝐌 𝐆𝐑𝐔𝐏𝐎`,'red'),'\n',
+color(`𝐂𝐎𝐌𝐀𝐍𝐃𝐎 𝐄𝐌 𝐆𝐑𝐔𝐏𝐎`,'yellow'),'\n',
 color('⪼ NOME DO BOT:','orange'),color(botName, 'cyan'),'\n',
 color('⪼ NOME DO GRUPO:','orange'),color(groupName,'cyan'),'\n',
 color('⪼ USUÁRIO:','orange'),color(pushname,'cyan'),'\n',
@@ -889,13 +889,13 @@ color('⪼ HORÁRIO:','orange'),color(hora,'cyan'),'\n',
 color('⪼ DATA:','orange'),color(data,'cyan'),'\n')
 
 if (!isCmd && isGroup) console.log(
-color(`𝐌𝐄𝐍𝐒𝐀𝐆𝐄𝐌 𝐄𝐌 𝐆𝐑𝐔𝐏𝐎`,'pink'),'\n',
-color('⪼ NOME DO BOT:','pink'),color(botName, 'cyan'),'\n',
-color('⪼ NOME DO GRUPO:','pink'),color(groupName,'cyan'),'\n',
-color('⪼ USUÁRIO:','pink'),color(pushname,'cyan'),'\n',
-color('⪼ MENSAGEM:','pink'),color(budy,'cyan'),'\n',
-color('⪼ HORÁRIO:','pink'),color(hora,'cyan'),'\n',
-color('⪼ DATA:','pink'),color(data,'cyan'),'\n')
+color(`𝐌𝐄𝐍𝐒𝐀𝐆𝐄𝐌 𝐄𝐌 𝐆𝐑𝐔𝐏𝐎`,'yellow'),'\n',
+color('⪼ NOME DO BOT:','purple'),color(botName, 'cyan'),'\n',
+color('⪼ NOME DO GRUPO:','purble'),color(groupName,'cyan'),'\n',
+color('⪼ USUÁRIO:','purple'),color(pushname,'cyan'),'\n',
+color('⪼ MENSAGEM:','purple'),color(budy,'cyan'),'\n',
+color('⪼ HORÁRIO:','purple'),color(hora,'cyan'),'\n',
+color('⪼ DATA:','purple'),color(data,'cyan'),'\n')
 
 //
 msg = {
