@@ -864,38 +864,38 @@ const menc_os2 = q.includes("@") ? menc_jid : menc_prt
 
 
  if (!isGroup && isCmd) console.log(
-color(`𝐂𝐎𝐌𝐀𝐍𝐃𝐎 𝐍𝐎 𝐏𝐑𝐈𝐕𝐀𝐃𝐎`,'red'),'\n',
-color('⪼ NOME DO BOT:','red'),color(botName, 'cyan'),'\n',
-color('⪼ USUÁRIO:','red'),color(pushname,'cyan'),'\n',
-color('⪼ COMANDO:','red'),color(budy, 'cyan'),'\n',
-color('⪼ HORÁRIO:','red'),color(hora,'cyan'),'\n',
-color('⪼ DAТA:','red'),color(data,'cyan'),'\n')
+color(`𝐂𝐎𝐌𝐀𝐍𝐃𝐎 𝐍𝐎 𝐏𝐑𝐈𝐕𝐀𝐃𝐎`,'yellow'),'\n',
+color('⪼ NOME DO BOT:','blue'),color(botName, 'cyan'),'\n',
+color('⪼ USUÁRIO:','blue'),color(pushname,'cyan'),'\n',
+color('⪼ COMANDO:','blue'),color(budy, 'cyan'),'\n',
+color('⪼ HORÁRIO:','blue'),color(hora,'cyan'),'\n',
+color('⪼ DAТA:','blue'),color(data,'cyan'),'\n')
 
 if (!isCmd && !isGroup) console.log(
 color(`𝐌𝐄𝐍𝐒𝐀𝐆𝐄𝐌 𝐍𝐎 𝐏𝐑𝐈𝐕𝐀𝐃𝐎`,'red'),'\n',
-color('⪼ NOME DO BOT:','red'),color(botName, 'cyan'),'\n',
-color('⪼ USUÁRIO:','red'),color(pushname,'cyan'),'\n',
-color('⪼ MENSAGEM:','red'),color(budy,'cyan'),'\n',
-color('⪼ HORÁRIO:','red'),color(hora,'cyan'),'\n',
-color('⪼ DATA:','red'),color(data,'cyan'),'\n')
+color('⪼ NOME DO BOT:','green'),color(botName, 'cyan'),'\n',
+color('⪼ USUÁRIO:','green'),color(pushname,'cyan'),'\n',
+color('⪼ MENSAGEM:','green'),color(budy,'cyan'),'\n',
+color('⪼ HORÁRIO:','green'),color(hora,'cyan'),'\n',
+color('⪼ DATA:','green'),color(data,'cyan'),'\n')
 
 if (isCmd && isGroup) console.log(
 color(`𝐂𝐎𝐌𝐀𝐍𝐃𝐎 𝐄𝐌 𝐆𝐑𝐔𝐏𝐎`,'red'),'\n',
-color('⪼ NOME DO BOT:','red'),color(botName, 'cyan'),'\n',
-color('⪼ NOME DO GRUPO:','red'),color(groupName,'cyan'),'\n',
-color('⪼ USUÁRIO:','red'),color(pushname,'cyan'),'\n',
-color('⪼ COMANDO:','red'),color(budy,'cyan'),'\n',
-color('⪼ HORÁRIO:','red'),color(hora,'cyan'),'\n',
-color('⪼ DATA:','red'),color(data,'cyan'),'\n')
+color('⪼ NOME DO BOT:','orange'),color(botName, 'cyan'),'\n',
+color('⪼ NOME DO GRUPO:','orange'),color(groupName,'cyan'),'\n',
+color('⪼ USUÁRIO:','orange'),color(pushname,'cyan'),'\n',
+color('⪼ COMANDO:','orange'),color(budy,'cyan'),'\n',
+color('⪼ HORÁRIO:','orange'),color(hora,'cyan'),'\n',
+color('⪼ DATA:','orange'),color(data,'cyan'),'\n')
 
 if (!isCmd && isGroup) console.log(
-color(`𝐌𝐄𝐍𝐒𝐀𝐆𝐄𝐌 𝐄𝐌 𝐆𝐑𝐔𝐏𝐎`,'red'),'\n',
-color('⪼ NOME DO BOT:','red'),color(botName, 'cyan'),'\n',
-color('⪼ NOME DO GRUPO:','red'),color(groupName,'cyan'),'\n',
-color('⪼ USUÁRIO:','red'),color(pushname,'cyan'),'\n',
-color('⪼ MENSAGEM:','red'),color(budy,'cyan'),'\n',
-color('⪼ HORÁRIO:','red'),color(hora,'cyan'),'\n',
-color('⪼ DATA:','red'),color(data,'cyan'),'\n')
+color(`𝐌𝐄𝐍𝐒𝐀𝐆𝐄𝐌 𝐄𝐌 𝐆𝐑𝐔𝐏𝐎`,'pink'),'\n',
+color('⪼ NOME DO BOT:','pink'),color(botName, 'cyan'),'\n',
+color('⪼ NOME DO GRUPO:','pink'),color(groupName,'cyan'),'\n',
+color('⪼ USUÁRIO:','pink'),color(pushname,'cyan'),'\n',
+color('⪼ MENSAGEM:','pink'),color(budy,'cyan'),'\n',
+color('⪼ HORÁRIO:','pink'),color(hora,'cyan'),'\n',
+color('⪼ DATA:','pink'),color(data,'cyan'),'\n')
 
 //
 msg = {
