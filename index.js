@@ -579,11 +579,9 @@ const esperar = sleep = async (tempo) => {
 
 
 const reply = (texto) => {
-  // Verifica se a mensagem é do tipo texto
-  if (m.type === 'text') {
     // Envia apenas o texto
     loli.sendMessage(from, { text: texto }, { quoted: info });
-  } 
+  
 };
 
 
