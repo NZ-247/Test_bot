@@ -890,12 +890,12 @@ color('⪼ DATA:','orange'),color(data,'cyan'),'\n')
 
 if (!isCmd && isGroup) console.log(
 color(`𝐌𝐄𝐍𝐒𝐀𝐆𝐄𝐌 𝐄𝐌 𝐆𝐑𝐔𝐏𝐎`,'yellow'),'\n',
-color('⪼ NOME DO BOT:','#800080'),color(botName, 'cyan'),'\n',
+color('⪼ NOME DO BOT:','purple'),color(botName, 'cyan'),'\n',
 color('⪼ NOME DO GRUPO:','purple'),color(groupName,'cyan'),'\n',
-color('⪼ USUÁRIO:','#800080'),color(pushname,'cyan'),'\n',
-color('⪼ MENSAGEM:','#800080'),color(budy,'cyan'),'\n',
-color('⪼ HORÁRIO:','#800080'),color(hora,'cyan'),'\n',
-color('⪼ DATA:','#800080'),color(data,'cyan'),'\n')
+color('⪼ USUÁRIO:','purple'),color(pushname,'cyan'),'\n',
+color('⪼ MENSAGEM:','purple'),color(budy,'cyan'),'\n',
+color('⪼ HORÁRIO:','purple'),color(hora,'cyan'),'\n',
+color('⪼ DATA:','purple'),color(data,'cyan'),'\n')
 
 //
 msg = {
@@ -7484,7 +7484,7 @@ case "ninjalogo":
 case "rainbowequalizer":
 case "peridot":
 case "rock":
-case "#800080shiny":
+case "purpleshiny":
 case "robotr2":
 textin = args.join(" ")
 if(!textin) return reply(mess.syntaxLogos())
