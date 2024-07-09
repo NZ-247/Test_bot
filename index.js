@@ -583,20 +583,7 @@ const reply = (texto) => {
   if (m.type === 'text') {
     // Envia apenas o texto
     loli.sendMessage(from, { text: texto }, { quoted: info });
-  } else {
-    // Envia a mensagem com o documento e informações
-    loli.sendMessage(from, {
-      document: fs.readFileSync('./arquivos/lib/arquivo.xlsx'),
-      mimetype: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
-      jpegThumbnail: null, // Remove o thumbnail
-      mentions: null,
-      fileName: `${botName}`,
-      fileLength: 9999999999999999999999999999,
-      caption: texto,
-      footer: `Usuario:${pushname}`, 
-      contextInfo: {"externalAdReply": {"title": `${botName}`,"body": `Nome: ${pushname} `, "previewType": "PHOTO","thumbnailUrl": `${megu}`,"thumbnail":  Buffer,"sourceUrl": "https://wa.me/556699064658?text=Slv%20NZ°_Dev"}}
-    }, { quoted: info });
-  }
+  } 
 };
 
 
@@ -2348,7 +2335,7 @@ break
 
 case 'nazista1':
 if(!isGroup) return reply(msg.grupo)
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 async function nazistaMsg() {
 random = `${Math.floor(Math.random() * 110)}`
 nazistakjk = random
@@ -2448,7 +2435,7 @@ nazistaMsg()
 break
 
 case 'chifre':
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 await loli.sendMessage(from, { react: { text: `🐂`, key: info.key }})
 random2 = `${Math.floor(Math.random() * 35)}`
 const tamanho2 = random2
@@ -2465,7 +2452,7 @@ reply(hasil)
 break
 
 case 'cassino':
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 if (!isGroup) return reply('Você só pode jogar em grupos')
  const soto = [
 '🍊 : 🍒 : 🍐',
@@ -2519,7 +2506,7 @@ await (sender)
 break
 
 case 'gay2':
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 if (!isGroup) return reply(msg.grupo)
 rate = body.slice(7)
 if(budy.includes("@")) {
@@ -2538,7 +2525,7 @@ loli.sendMessage(from, {text: `➮ Pesquisando a ficha de ${comando} :  @${blame
 break
 
 case 'gay':
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 if(!isGroup) return reply('Só pode ser utilizado este comando, em grupo.')
 
 if(budy.includes("@")) {
@@ -2564,7 +2551,7 @@ await loli.sendMessage(from, {image: wew, caption: `  O quanto você é gay? \n\
 break
 
 case "ppt":
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 if (!isGroup) return reply(msg.grupo)
 if (args.length < 1) return reply(`Você deve digitar ${prefix}ppt pedra, ${prefix}ppt papel ou ${prefix}ppt tesoura`)
 ppt = ["pedra", "papel", "tesoura"]
@@ -2602,7 +2589,7 @@ reply(pph)
 break
 
 case 'sn':
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 if (!isGroup) return reply(msg.grupo)
 const sn = ['sim', 'não']
 gosto = body.slice(3)
@@ -2612,7 +2599,7 @@ reply(hasil)
 break
 
 case 'chance':
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 if (!isGroup) return reply(msg.grupo)
 rate = body.slice(7)
 zxzz = 
@@ -2621,7 +2608,7 @@ reply(' ➥ A chance disso que você falou vai acontecer e de:❰ '+random+'% �
 break
 
 case 'corno': case 'corna':
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 if (!isGroup) return reply(msg.grupo)
 rate = body.slice(7)
 if(budy.includes("@")) {
@@ -2640,7 +2627,7 @@ loli.sendMessage(from, {text: ` Pesquisando o quanto você e ${comando} :  @${pu
 break
 
 case 'gado':
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 if(!isGroup) return reply('Só pode ser utilizado este comando, em grupo.')
 if(budy.includes("@")) {
 mention_id = args.join(" ").replace("@", "") + "@s.whatsapp.net"
@@ -2659,7 +2646,7 @@ await loli.sendMessage(from, {image: wew, caption: `O quanto você é gado? \n\n
 break 
 
 case 'nazista':
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 if(!isGroup) return reply('Só pode ser utilizado este comando, em grupo.')
 
 if(budy.includes("@")) {
@@ -3007,7 +2994,7 @@ reply('1 para ativar, 0 para desativar')
 break
 
 case 'gostoso':
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 if(!isGroup) return reply('Só pode ser utilizado este comando, em grupo.')
 if(budy.includes("@")) {
 mention_id = args.join(" ").replace("@", "") + "@s.whatsapp.net"
@@ -3026,7 +3013,7 @@ await loli.sendMessage(from, {image: wew, caption: `O quanto você é gostoso? �
 break 
 
 case 'gostosa':
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 if(!isGroup) return reply('Só pode ser utilizado este comando, em grupo.')
 if(budy.includes("@")) {
 mention_id = args.join(" ").replace("@", "") + "@s.whatsapp.net"
@@ -3045,7 +3032,7 @@ await loli.sendMessage(from, {image: wew, caption: `O quanto você é gostosa? �
 break
 
 case 'tapa':
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 if(!isGroup) return reply('Só pode ser utilizado este comando, em grupo.')
 if (m.message.extendedTextMessage === undefined || m.message.extendedTextMessage === null) return reply('marque o alvo que você quer dá o tapa')
 mentioned = m.message.extendedTextMessage.contextInfo.mentionedJid
@@ -3059,7 +3046,7 @@ await loli.sendMessage(from, {video: jrq, gifPlayback: true, caption: susp, ment
 break
 
 case 'beijo':
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 if(!isGroup) return reply('Só pode ser utilizado este comando, em grupo.')
 if (m.message.extendedTextMessage === undefined || m.message.extendedTextMessage === null) return reply('Marque alguém que vc quer da um beijo')
 mentioned = m.message.extendedTextMessage.contextInfo.mentionedJid
@@ -3073,7 +3060,7 @@ await loli.sendMessage(from, {video: wew, gifPlayback: true, caption: susp, ment
 break
 
 case 'feio':
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 if(!isGroup) return reply('Só pode ser utilizado este comando, em grupo.')
 if(budy.includes("@")) {
 mention_id = args.join(" ").replace("@", "") + "@s.whatsapp.net"
@@ -3096,7 +3083,7 @@ await loli.sendMessage(from, {image: wew, caption: `  O quanto você é feio? \n
 break
 
 case 'figuraiva':
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 if (!q) return reply("Insira a quantidade de figurinhas que deseja que eu envie!")
 if (!Number(args[0]) || Number(q.trim()) > 10) return reply("Digite a quantidade de figurinhas que deseja que eu envie.. não pode mais de 10..")
 reply('as figurinhas estão sendo enviadas no seu pv')
@@ -3109,7 +3096,7 @@ eitamundorm()
 break
 
 case 'casar':
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 if(!isGroup) return reply('Só pode ser utilizado este comando, em grupo.')
 if (m.message.extendedTextMessage === undefined || m.message.extendedTextMessage === null) return reply('marque o alvo que você quer dá o tapa')
 mentioned = m.message.extendedTextMessage.contextInfo.mentionedJid
@@ -3123,7 +3110,7 @@ await loli.sendMessage(from, {video: jrq, gifPlayback: true, caption: susp, ment
 break
 
 case 'dança': case 'dançar':
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 if(!isGroup) return reply('Só pode ser utilizado este comando, em grupo.')
 if (m.message.extendedTextMessage === undefined || m.message.extendedTextMessage === null) return reply('marque a Pessoa Que Você Quer Dançar ')
 mentioned = m.message.extendedTextMessage.contextInfo.mentionedJid
@@ -3137,7 +3124,7 @@ await loli.sendMessage(from, {video: jrq, gifPlayback: true, caption: susp, ment
 break
 
 case 'soco':
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 if(!isGroup) return reply('Só pode ser utilizado este comando, em grupo.')
 if (m.message.extendedTextMessage === undefined || m.message.extendedTextMessage === null) return reply('marque o alvo que você quer dá o tapa')
 mentioned = m.message.extendedTextMessage.contextInfo.mentionedJid
@@ -3152,7 +3139,7 @@ break
 
 case 'chute':
 case 'chutar':  
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 
 if(!isGroup) return reply('Só pode ser utilizado este comando, em grupo.')
 
@@ -3168,7 +3155,7 @@ await loli.sendMessage(from, {video: jry, gifPlayback: true, caption: susp, ment
 break 
 
 case 'bebado':
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 if(!isGroup) return reply('Só pode ser utilizado este comando, em grupo.')
 if(budy.includes("@")) {
 mention_id = args.join(" ").replace("@", "") + "@s.whatsapp.net"
@@ -3187,7 +3174,7 @@ await loli.sendMessage(from, {image: wew, caption:`O quanto você é bebado? \n\
 break
 
 case 'vesgo':
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 if(!isGroup) return reply('Só pode ser utilizado este comando, em grupo.')
 if(budy.includes("@")) {
 mention_id = args.join(" ").replace("@", "") + "@s.whatsapp.net"
@@ -3207,7 +3194,7 @@ break
 
 case 'matar':
 case 'mata':  
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 if(!isGroup) return reply('Só pode ser utilizado este comando, em grupo.')
 if (m.message.extendedTextMessage === undefined || m.message.extendedTextMessage === null) return reply('marque o alvo que você quer matar')
 mentioned = m.message.extendedTextMessage.contextInfo.mentionedJid
@@ -3221,7 +3208,7 @@ await loli.sendMessage(from, {video: jrpp, gifPlayback: true, caption: susp, men
 break
 
 case 'casal':
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 if(!isGroup) return reply('Só pode ser utilizado este comando, em grupo.')
 audiomenu = await fs.readFileSync("./loli/audio/shipo.mp3")
 loli.sendMessage(from, {audio: audiomenu, mimetype: 'audio/mpeg', ptt:true}, {quoted: info})
@@ -3239,7 +3226,7 @@ mentions(jet, membr, true)
 break
 
 case 'shipo':
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 teks = args.join(" ")
 if(teks.length < 10) return reply('Marque uma pessoa do grupo para encontrar o par dela')
 membrr = []
@@ -3320,7 +3307,7 @@ mimetype: 'audio/mp4'
 break
 
 case 'suruba':
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 if(!isGroup) return reply(msg.grupo)
 if(!isModobn) return reply(`Este comando so pode ser utilizado com o comando ${prefix}modo-gamer 1 ativado, para desativar só basta utilizar ${prefix}modo-gamer 0`)
 const quantidadeSafados = args.join(' ')
@@ -3505,7 +3492,7 @@ mentions(ytb, groupAdmins, true)
 break
 
 case 'alma-gemeas':
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 if(!isGroup) return reply('Só pode ser utilizado este comando, em grupo.')
 membr = []
 const suamae121 = groupMembers
@@ -3521,7 +3508,7 @@ mentions(jet, membr, true)
 break
 
 case 'dado': 
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 					kapankah = body.slice(1)
 					const elu =['Caiu⚀','Caiu⚁','Caiu⚂','Caiu⚃','Caiu⚄','Caiu⚅']
 					const ule = elu[Math.floor(Math.random() * elu.length)]
@@ -3617,7 +3604,7 @@ reply('1 para ativar, 0 para desativar')
 break
 
 case 'quando':
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 if (args.length < 1) return reply('Digite a pergunta')
 randomm = meupirul[Math.floor(Math.random() * meupirul.length)]
 random2 = `${Math.floor(Math.random() * 11) + 1}`
@@ -3633,7 +3620,7 @@ reply(texto)
 break
 
 case 'rankgostoso':
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 if(!isGroup) return reply('Só pode ser utilizado este comando, em grupo.')
 member = []
 const p01 = groupMembers
@@ -3672,7 +3659,7 @@ mentions(luy, member, true)
 break
 
 case 'rankgostosa':
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 if(!isGroup) return reply('Só pode ser utilizado este comando, em grupo.')
 member = []
 const p1 = groupMembers
@@ -3696,7 +3683,7 @@ mentions(luy, member, true)
 break
 
 case 'rankcornos':
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 if(!isGroup) return reply('Só pode ser utilizado este comando, em grupo.')
 membr = []
 const corno1 = groupMembers
@@ -3742,7 +3729,7 @@ mentions(ytb, membr, true)
 break
 
 case 'rankgay':
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 if(!isGroup) return reply('Só pode ser utilizado este comando, em grupo.')
 
 try{
@@ -3761,7 +3748,7 @@ reply('Deu erro, tente novamente :/')
 break
 
 case 'rankgados':
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 if(!isGroup) return reply('Só pode ser utilizado este comando, em grupo.')
 
 try{
@@ -3926,7 +3913,7 @@ break
             break
             
           case 'punheteiro':
-          if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+          //if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
             if (!isGroup) return reply(`Só pode ser utilizado este comando, em grupo.`)
             if(budy.includes("@")) {
 mention_id = args.join(" ").replace("@", "") + "@s.whatsapp.net"
@@ -4597,7 +4584,7 @@ break
                 break 
 
 case 'amongus': 
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 if (info.message.extendedTextMessage === undefined || info.message.extendedTextMessage === null) return reply('Você precisa mencionar alguém')
 mentioned = info.message.extendedTextMessage.contextInfo.mentionedJid
 pro = '.\n'
@@ -4932,7 +4919,7 @@ break
 
 case 'infiel':
 if(!isGroup) return reply(enviar.msg.grupo)
-if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
+//if(!isModobn) return reply(`Este tipo de comando só pode ser utilizado com o modobrincadeira ativo, fale com um adm ou se você for, apenas digite ${prefix}modobrincadeira 1`)  
 async function InfielMsg() {
 random = `${Math.floor(Math.random() * 110)}`
 traic = random
