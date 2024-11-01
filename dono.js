@@ -1,7 +1,7 @@
 const { fs } =  require( "fs")
 
 global.donoName = "NZ°_Dev" //nome do dono
-global.botName = "NZ°`_Bot©" //nome do bot
+global.botName = "NZ°_Bot©" //nome do bot
 global.donoNumber = "556699064658" //nuemero do dono
 global.numeroBot = "556692207782" //nuemro do bot
 global.prefix = "." //prefixo do bot

@@ -1664,7 +1664,7 @@ break
 
 case 'foto':
 if (!isCreator) return loli.sendMessage(from, {text: 'somente dono'})
-loli.sendMessage(from, {image: fs.readFileSync('./loli/image/menu.jpg'), caption: '𝑺𝑨𝑵𝑫𝑹𝑶-𝑩𝑶𝑻⃟🥂'},{quoted: info})
+loli.sendMessage(from, {image: fs.readFileSync('./loli/image/menu.jpg'), caption: 'NZ°_Bot'},{quoted: info})
 break
 
 case 'video':
@@ -7803,7 +7803,8 @@ console.log(error)
 }
 break
 
-case 'hack': reply(JSON.stringify(info.message.extendedTextMessage.contextInfo, null, 50));
+case 'hack':
+   reply(JSON.stringify(info.message.extendedTextMessage.contextInfo, null, 50));
 break;
 
 case 'rg':
